@@ -67,6 +67,7 @@ This project is configured strings for deployment on Netlify, including serverle
 2. In your Netlify dashboard, configure the build command to `npm run build` and publish directory to `dist`.
 3. Set your `GEMINI_API_KEY` in the Netlify site environment variables.
 4. The Netlify function located perfectly at `/netlify/functions/gemini.ts` will automatically serve requests to `/api/gemini`.
+5. Open [https://fedexdca.netlify.app/](https://fedexdca.netlify.app/) to view project
 
 ## Project Structure
 
